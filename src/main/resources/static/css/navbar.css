@@ -1,0 +1,27 @@
+body {
+	margin-top: 60px;
+}
+
+navbar {
+	background-color: #1e94d2;
+}
+
+navbar-toggle {
+	color: #fff;
+}
+
+lbl-text {
+	margin-top: 20px;
+	color: #f1f1f1 !important;
+}
+
+.figura {
+	padding: 0px 0px 2px 0px;
+}
+
+#real-clock {
+	position: absolute;
+	font:20px fantasy;
+	left: 1200px;
+}
+
