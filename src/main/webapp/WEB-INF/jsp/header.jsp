@@ -11,21 +11,6 @@
 <c:url value="/css/navbar.css" var="jstlCss" />
 
 <link href="${jstlCss}" rel="stylesheet" />
-    
-<style type="text/css">
- 
-.nav__menu img {
-	height: 50px;
-	width: 50px;
-	flex: 0 0 auto;
-	object-fit: cover;
-	margin: 0 15px 0 0;
-	border: 2px solid white;
-	border-radius: 50%;
-	box-sizing: border-box;
-		
-}
-</style>
 
 </head>
 <body>
@@ -38,9 +23,9 @@
 					   </a>
 					</li>
 					<li>
-						<div class="nav__menu">
-							<img src="data:image/jpeg;base64,${fotoUsuario}" alt="autor">
-						</div>
+						<figure class="imagem">
+								<img src="data:image/jpeg;base64,${fotoUsuario}" alt="autor">
+						</figure>
 					</li>
 					<li>
 						 <a href="<c:url value="/logout"/>">

@@ -6,22 +6,19 @@ navbar {
 	background-color: #1e94d2;
 }
 
-navbar-toggle {
-	color: #fff;
+.imagem img {
+	height: 50px;
+	width: 50px;
+	
+	object-fit: cover;
+	margin-right:0px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #6902be 75%, #dc1888 100% );
+   	padding: 2px;
+		
 }
 
-lbl-text {
-	margin-top: 20px;
-	color: #f1f1f1 !important;
+.container {
+    margin-right: 1px;
 }
-
-.figura {
-	padding: 0px 0px 2px 0px;
-}
-
-#real-clock {
-	position: absolute;
-	font:20px fantasy;
-	left: 1200px;
-}
-
